@@ -1,0 +1,23 @@
+{
+  "name": "ndfs",
+  "version": "0.1.0",
+  "author": "Nick Campbell (http://github.com/ncb000gt)",
+  "description": "Distributed file system.",
+  "main": "./lib/ndfs",
+  "keywords": ["distributed", "fs", "file", "filesystem", "stream"],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/ncb000gt/ndfs.git"
+  },
+  "licenses": [{"type": "MIT"}],
+  "bugs": {"url" : "http://github.com/ncb000gt/ndfs/issues"},
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "queuestream": ">=0.0.5"
+  },
+  "devDependencies": {
+    "nodeunit": ">=0.6.0"
+  }
+}
